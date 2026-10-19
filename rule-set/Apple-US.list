@@ -1,3 +1,7 @@
+# NAME: Apple-US
+# REPO: https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/Apple-US.list
+# UPDATED: 2026-10-19 14:40
+
 # Apple Intelligence / Siri / Relay 建议走美国节点规则
 DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
