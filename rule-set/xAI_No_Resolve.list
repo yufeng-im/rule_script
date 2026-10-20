@@ -1,0 +1,36 @@
+# NAME: xAI
+# SCOPE: Grok, xAI (SpaceXAI), Cursor, Grok Bot
+# REPO: https://cursor.com/docs/enterprise/network-configuration
+# REPO: https://cursor.com/help/troubleshooting/sign-in-domains
+# REPO: https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS400297
+# UPDATED: 2026-10-21 01:26:45
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 14
+# IP-CIDR: 1
+# IP-ASN: 1
+# TOTAL: 17
+# OMIT: spacex.com is SpaceX, not SpaceXAI. xai.com and grok.cn are unrelated.
+# OMIT: No Cloudflare, Vercel, AWS or Fastly ranges. Cursor publishes domains, not stable ingress prefixes.
+
+# Grok / xAI / SpaceXAI
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokbot.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,spacex.ai
+DOMAIN-SUFFIX,x.ai
+
+# Cursor / Grok Bot
+DOMAIN-SUFFIX,anysphere.co
+DOMAIN-SUFFIX,anysphere.inc
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.so
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+
+# AS400297 X.AI CORP
+IP-CIDR,31.207.0.0/24,no-resolve
+IP-ASN,400297,no-resolve

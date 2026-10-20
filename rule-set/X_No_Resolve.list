@@ -1,24 +1,18 @@
 # NAME: X
-# SCOPE: X/Twitter, Grok, xAI (SpaceXAI), Cursor, Grok Bot
+# SCOPE: X/Twitter
 # REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Twitter/Twitter_No_Resolve.yaml
 # REPO: https://github.com/v2fly/domain-list-community/blob/master/data/twitter
-# REPO: https://cursor.com/docs/enterprise/network-configuration
-# REPO: https://cursor.com/help/troubleshooting/sign-in-domains
 # REPO: https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS13414
-# UPDATED: 2026-10-21 00:56:14
-# DOMAIN: 1
-# DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 35
-# IP-CIDR: 16
+# UPDATED: 2026-10-21 01:26:45
+# DOMAIN-SUFFIX: 21
+# IP-CIDR: 15
 # IP-CIDR6: 3
-# IP-ASN: 5
-# TOTAL: 60
-# OMIT: DOMAIN-KEYWORD twitter/grok/x. twitter.com.cn, grok.cn and xai.com are unrelated.
-# OMIT: spacex.com is SpaceX, not SpaceXAI. No Cloudflare, Vercel, AWS or Fastly ranges.
+# IP-ASN: 4
+# TOTAL: 43
+# OMIT: DOMAIN-KEYWORD,twitter. twitter.com.cn is unrelated.
 # OMIT: parked or third-party tellapart.com, twimg.co, twimg.org, twitter.co, twitter.net, twitteroauth.com.
-# OMIT: stale Twitter CIDR 69.195.160.0/19, 209.237.192.0/19, 199.96.56.0/21. 104.244.43.0/24 is Fastly.
+# OMIT: stale CIDR 69.195.160.0/19, 209.237.192.0/19, 199.96.56.0/21. 104.244.43.0/24 is Fastly.
 
-# X / Twitter
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,periscope.tv
@@ -40,30 +34,7 @@ DOMAIN-SUFFIX,twttr.net
 DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
-
-# Grok / xAI / SpaceXAI / Grok Bot
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grokbot.com
-DOMAIN-SUFFIX,grokipedia.com
-DOMAIN-SUFFIX,grokusercontent.com
-DOMAIN-SUFFIX,spacex.ai
-DOMAIN-SUFFIX,x.ai
-
-# Cursor / Grok Bot
-DOMAIN-SUFFIX,anysphere.co
-DOMAIN-SUFFIX,anysphere.inc
-DOMAIN-SUFFIX,cursor-cdn.com
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,cursor.so
-DOMAIN-SUFFIX,cursorapi.com
-DOMAIN-SUFFIX,cursorvm.com
-
-DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
-
-# Twitter AS13414, AS35995, AS54888, AS63179. xAI AS400297.
 IP-CIDR,8.25.194.0/22,no-resolve
-IP-CIDR,31.207.0.0/24,no-resolve
 IP-CIDR,64.63.0.0/18,no-resolve
 IP-CIDR,69.12.56.0/21,no-resolve
 IP-CIDR,103.252.112.0/22,no-resolve
@@ -85,4 +56,3 @@ IP-ASN,13414,no-resolve
 IP-ASN,35995,no-resolve
 IP-ASN,54888,no-resolve
 IP-ASN,63179,no-resolve
-IP-ASN,400297,no-resolve
